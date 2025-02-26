@@ -1,0 +1,91 @@
+.cover {
+  position: relative;
+  padding: 165px 50px 50px 50px;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cover__title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  color: #fff;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  line-height: 100%;
+  z-index: 3;
+}
+
+.cover__title-aligned-text {
+  display: block;
+  line-height: 115%;
+}
+
+.cover__title-aligned-text_center {
+  display: block;
+  margin: auto;
+}
+
+.cover__title-aligned-text_right {
+  text-align: right;
+}
+
+.cover__title-no-letter-spacing {
+  letter-spacing: 0em;
+}
+
+.cover__title-letter-spacing-extended {
+  letter-spacing: 0.6em;
+}
+
+.cover__description {
+  margin-top: 135px;
+  position: relative;
+  color: #fff;
+  z-index: 3;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  column-gap: 78px;
+}
+
+.cover__description-text {
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 127.27%;
+  text-transform: uppercase;
+  word-spacing: 17.6px;
+}
+
+.bet-button {
+  width: 257px;
+  height: 52px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+
+.bet-button:hover {
+  transform: scale(105%);
+  box-shadow: 10px 10px 10px #090909;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
